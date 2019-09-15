@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/base.css">
+        <script src="general_function.js"></script>
+    </head>
+    <body>
+       <h1>Welcome <span id="username"></span></h1>
+        
+       <ul>
+           <li><a href="map">MAP</a></li>
+           <li><a href="logout">LOGOUT</a></li>
+       </ul>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelector('#username').innerHTML = user.username;
+        }, false);
+    </script>
+    </body>
+</html>

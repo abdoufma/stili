@@ -1,5 +1,5 @@
 # Basic Specs and functionality for a VTC service
-> This is meant as a rough scaffolding for our VTC projects, this is by no means and exaustif set of featuresrel
+> This is meant as a rough scaffolding for our VTC projects, this is by no means and exaustif set of features
 
 
 ## users:
@@ -55,12 +55,5 @@
 
 
 ## dashboard:
-    Coming soon
+    Coming soon™
         
-
-
-
-
-
-
-"# stili"  

@@ -1,0 +1,33 @@
+*{padding: 0px; margin: 0px; border: none;   box-sizing: border-box;}
+body{ font-family:   'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; width:100vw; height:100vh; overflow-x: hidden; overflow-y: scroll; text-align: center; }
+input{display: block;}
+.form{width: 80%; margin: 0px auto; text-align: center; border: 1px solid#dadada}
+.form input{width: 40%; text-align: center; margin: 0px auto; margin: 10px auto; padding: 5px; font-size: 1rem; border: 1px solid #dadada; border-radius: 10px;}
+.btn{padding: 10px 20px;text-align: center;color: white;font-size: 18px;text-transform: uppercase;cursor: pointer;margin: 20px 10px;border-radius: 10px}
+.inline{display: inline-block; vertical-align: middle; margin: 0px 20px;}
+.orange{background-color: #ff7300}
+.green{background-color: #46c566;}
+.blue{background-color: #3264cf;}
+.pink{background-color: #e63763}
+.bold{font-weight: bold;}
+.card_container{
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    background: white;
+    padding: 100px ;
+    grid-column-gap: 50px;
+}
+.card{
+    justify-self: center;
+    border: none;
+    text-align: center;
+}
+.card_image img{
+    height: 150px;
+}
+.card_title{
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 15px 0px;
+}
+
